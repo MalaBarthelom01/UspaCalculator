@@ -58,6 +58,7 @@
          To run the UspsCalculatorSafari.xml suite on Safari, use the following command:
      		mvn test -DsuiteXmlFile=UspsCalculatorSafari.xml
 			Attached is a screenshot for reference.
+![email_Snapshot](https://user-images.githubusercontent.com/128941730/227891718-a4ef8d3a-0dba-4f57-beb4-819c78da3424.png)
 
 
 		 <img width="629" alt="image" src="https://user-images.githubusercontent.com/128941730/227887742-1b6c367b-6b0e-4534-85fc-3764b391111e.png">
