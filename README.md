@@ -75,10 +75,10 @@
 	 ### The test cases to calculate the "USPS Calculator" involve the following steps:
          1. Select the country, origin zip code, and destination zip code.
          2. Select the shipping date and time.
-		 3. Select the package option for ground delivery.
-		 4. Select the package option to view dimensions.
-		 5. Enter the package weight in pounds or ounces.
-		 6. Select the package option for ground retail.
+         3. Select the package option for ground delivery.
+         4. Select the package option to view dimensions.
+	 5. Enter the package weight in pounds or ounces.
+         6. Select the package option for ground retail.
          7. Enter the package dimensions in height, length, and width.
          8. Click "Continue" to calculate the USPS shipping price.
          9. Validate that there are images present on the final "Mail Services" page.
