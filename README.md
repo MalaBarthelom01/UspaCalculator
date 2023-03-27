@@ -11,7 +11,8 @@
         * Cross-browser testing of suites/test cases
         * Testing on both Windows and Mac platforms
         * Page Object Model
-        * emailable-reports		
+        * emailable-reports
+	* Windows and Mac(Platforms)
 ### Stack & Libraries
          * Java
          * Selenium WebDriver
@@ -61,6 +62,12 @@
      		mvn test -DsuiteXmlFile=UspsCalculator.xml
          To run the UspsCalculatorSafari.xml suite on Safari, use the following command:
      		mvn test -DsuiteXmlFile=UspsCalculatorSafari.xml
+		
+##  Windows Environment: 
+	Note: I did not Test it in windows PC. I dont have windows environment to test. But the code should work.
+	mvn test -DsuiteXmlFile=UspsCalculatorIE.xml
+	mvn test -DsuiteXmlFile=UspsCalculatorEdge.xml
+	
 			Attached is a screenshot for reference.
 ![email_Snapshot](https://user-images.githubusercontent.com/128941730/227891718-a4ef8d3a-0dba-4f57-beb4-819c78da3424.png)
 	
