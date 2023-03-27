@@ -60,8 +60,10 @@
 			Attached is a screenshot for reference.
 ![email_Snapshot](https://user-images.githubusercontent.com/128941730/227891718-a4ef8d3a-0dba-4f57-beb4-819c78da3424.png)
 	
+[Image-screen-Reports.docx](https://github.com/MalaBarthelom01/UspaCalculator/files/11076739/Image-screen-Reports.docx)
 
-![IMG_4460](https://user-images.githubusercontent.com/128941730/227893517-a910d30e-ce62-436f-be7a-d3adf389c195.JPG)
+![IMG_4459](https://user-images.githubusercontent.com/128941730/227895231-df76dcd6-5206-4ab5-95dd-85d543bd28d0.jpg)
+![IMG_4460](https://user-images.githubusercontent.com/128941730/227895314-0d8b714f-5e72-48b7-abda-b0e2560f30d1.JPG)
 
 	##	 Where to Find Reports:
 		The reports are generated under the following directory as "emailable-report.html":
