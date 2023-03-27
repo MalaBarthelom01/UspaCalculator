@@ -61,18 +61,18 @@
 ![email_Snapshot](https://user-images.githubusercontent.com/128941730/227891718-a4ef8d3a-0dba-4f57-beb4-819c78da3424.png)
 
 
-		 <img width="629" alt="image" src="https://user-images.githubusercontent.com/128941730/227887742-1b6c367b-6b0e-4534-85fc-3764b391111e.png">
-		 
-		 
 	##	 Where to Find Reports:
 		The reports are generated under the following directory as "emailable-report.html":
+	
 		- QAVectorAutomation/UspsAutomation/target/automation-reports/
 		   - QAVectorAutomation/UspsAutomation/target/automation-reports/Automation_Report_03-26-2023.html
             Attached is a screenshot for reference.
 
-     <img width="568" alt="image" src="https://user-images.githubusercontent.com/128941730/227889168-2b745d30-17d9-4428-9e08-2a2765d5f6c4.png">
+     ![IMG_4459](https://user-images.githubusercontent.com/128941730/227892820-24889884-9edc-4dad-9a96-df042b3bd85b.jpg)
+
 
 ##  Step definitions for the USPS calculator workflow
+	
 	 ### The test cases to calculate the "USPS Calculator" involve the following steps:
          1. Select the country, origin zip code, and destination zip code.
          2. Select the shipping date and time.
