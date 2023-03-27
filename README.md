@@ -1,11 +1,12 @@
 #   Selenium Maven FrameWork to USPS Calculator
 ## Objective
-         Develop the "QAVectorAutomation to writea utomation test cases for the USPS Retail Postage Calculator: [https://postcalc.usps.com/]
+         Develop the "QAVectorAutomation" to write automation test cases for the USPS Retail Postage Calculator: [https://postcalc.usps.com/]
 		 The frame is developed with JAVA-MAven and TESTNG
 ### Supporting Features:
+
         * Screenshot capture for failed tests
         * Video recording of test runs
-	    * Screenshot capture for failed tests
+	* Screenshot capture for failed tests
         * Data-driven testing using Excel to control test data
         * Cross-browser testing of suites/test cases
         * Testing on both Windows and Mac platforms
@@ -24,7 +25,8 @@
 ### Easy way to configure Maven (Mac)
   1. Download Maven (tar.gz for mac[https://maven.apache.org/download.cgi]
   2. Move the downloaded apache-maven folder to your Home directory (This is the folder with your username)
-   In terminal:
+  
+     In terminal:
        1. Set system variables:
             export M2_HOME=/Users/<YOUR USER NAME>/<apache-maven->/
 
@@ -40,6 +42,7 @@
       5. Paste the two paths from step 1 and 2 .Save and close
          Now Maven will be installed for all sessions. To verify Maven is installed, type:
           mvn --version
+	  
 ###  How to run tests
     In terminal: Clone the project from Git or unzip the given package.
 
@@ -53,6 +56,7 @@
          Suite names:
      		UspsCalculator.xml (supports Chrome)
      		UspsCalculatorSafari.xml (supports Safari)
+		
          To run the UspsCalculator.xml suite on Chrome, use the following command:
      		mvn test -DsuiteXmlFile=UspsCalculator.xml
          To run the UspsCalculatorSafari.xml suite on Safari, use the following command:
