@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+	
+	<Element name="Title">
+		<param type="XPATH" value="//a[contains(text(),'#replaceString#')]" />
+	</Element>
+	
+	<Element name="RetailPage">
+		<param type="XPATH" value="//*[contains(@id, 'CountryID')]" />
+	</Element>
+	<Element name="ZipCodemailOrig">
+		<param type="XPATH" value="//*[contains(@id, 'Origin')]" />
+	</Element>
+	<Element name="ZipmailToDes">
+		<param type="XPATH" value="//*[contains(@id, 'Destination')]" />
+	</Element>
+	<Element name="ShipDate">
+		<param type="XPATH" value="//*[contains(@id, 'ShippingDate')]" />
+	</Element>
+	<Element name="ShipTime">
+		<param type="XPATH" value="//*[contains(@id, 'ShippingTime')]" />
+	</Element>
+	<Element name="SelectBox4">
+		<param type="XPATH" value="//*[contains(@id, 'option_4')]" />
+	</Element>
+	<Element name="Pounds">
+		<param type="XPATH" value="//*[contains(@id, 'Pounds')]" />
+	</Element>
+	<Element name="Ounces">
+		<param type="XPATH" value="//*[contains(@id, 'Ounces')]" />
+	</Element>
+	<Element name="Length">
+		<param type="XPATH" value="//*[contains(@id, 'Length')]" />
+	</Element>
+	<Element name="Height">
+		<param type="XPATH" value="//*[contains(@id, 'Height')]" />
+	</Element>
+	<Element name="Width">
+		<param type="XPATH" value="//*[contains(@id, 'Width')]" />
+	</Element>
+	<Element name="Submit">
+		<param type="XPATH" value="//input[@type='submit']" />
+	</Element>
+	<Element name="Mail">
+		<param type="XPATH" value="//div[@id='maincontent']" />
+	</Element>
+	<Element name="USPSRetailGround">
+		<param type="XPATH" value="//img[@alt='USPS Retail Ground®']" />
+	</Element>
+	<Element name="USPSRetailGroundPrice">
+		<param type="XPATH" value="//*[@id='mail-services-sm-lg']/div[3]/div[2]/table/tbody/tr/td[3]" />
+	</Element>
+	<Element name="USpsImages">
+		<param type="TAGNAME" value="img" />
+	</Element>
+</Elements>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="USPS Reports UI testcases">
+    <test name="USPS Reports" parallel="classes" thread-count="1">
+        <classes>
+            <class name="CommonUtility.SetEnvStaging"/>
+            <class name="qa.vector.UspsCalculatorTest4"/>
+			<class name="qa.vector.UspsCalculatorTest5"/>
+			<class name="qa.vector.UspsCalculatorTest6"/>
+        </classes>
+    </test>
+</suite>

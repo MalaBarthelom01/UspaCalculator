@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [USPS Reports UI testcases]">
+  <test thread-count="1" name="USPS Reports" parallel="classes">
+    <classes>
+      <class name="CommonUtility.SetEnvStaging"/>
+      <class name="qa.vector.UspsCalculatorTest"/>
+      <class name="qa.vector.UspsCalculatorTest2"/>
+      <class name="qa.vector.UspsCalculatorTest3"/>
+    </classes>
+  </test> <!-- USPS Reports -->
+  <test name="USPS Reports(failed)" parallel="classes">
+    <classes>
+      <class name="qa.vector.UspsCalculatorTest3">
+        <methods>
+          <include name="open"/>
+          <include name="close"/>
+          <include name="uspsCalTest3"/>
+        </methods>
+      </class> <!-- qa.vector.UspsCalculatorTest3 -->
+      <class name="qa.vector.UspsCalculatorTest">
+        <methods>
+          <include name="close"/>
+          <include name="open"/>
+        </methods>
+      </class> <!-- qa.vector.UspsCalculatorTest -->
+      <class name="qa.vector.UspsCalculatorTest2">
+        <methods>
+          <include name="open"/>
+          <include name="close"/>
+          <include name="uspsCalTest2"/>
+        </methods>
+      </class> <!-- qa.vector.UspsCalculatorTest2 -->
+    </classes>
+  </test> <!-- USPS Reports(failed) -->
+</suite> <!-- Failed suite [USPS Reports UI testcases] -->
