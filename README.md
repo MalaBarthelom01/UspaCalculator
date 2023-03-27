@@ -59,7 +59,9 @@
      		mvn test -DsuiteXmlFile=UspsCalculatorSafari.xml
 			Attached is a screenshot for reference.
 ![email_Snapshot](https://user-images.githubusercontent.com/128941730/227891718-a4ef8d3a-0dba-4f57-beb4-819c78da3424.png)
+	
 
+![IMG_4460](https://user-images.githubusercontent.com/128941730/227893517-a910d30e-ce62-436f-be7a-d3adf389c195.JPG)
 
 	##	 Where to Find Reports:
 		The reports are generated under the following directory as "emailable-report.html":
