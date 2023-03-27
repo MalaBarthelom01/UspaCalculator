@@ -4,9 +4,9 @@
     <test name="USPS Reports" parallel="classes" thread-count="1">
         <classes>
             <class name="CommonUtility.SetEnvStaging"/>
-            <class name="qa.windows.UspsCalculatorTest4"/>
-			<class name="qa.windows.UspsCalculatorTest5"/>
-			<class name="qa.windows.UspsCalculatorTest6"/>
+            <class name="qa.windows.UspsCalculatorwTest4"/>
+			<class name="qa.windows.UspsCalculatorwTest5"/>
+			<class name="qa.windows.UspsCalculatorwTest6"/>
         </classes>
     </test>
 </suite>
