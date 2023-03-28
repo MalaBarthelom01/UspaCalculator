@@ -29,10 +29,10 @@
   
      In terminal:
        1. Set system variables:
-            export M2_HOME=/Users/<YOUR USER NAME>/<apache-maven->/
+            export M2_HOME=/Users/YOUR USER NAME/apache-maven-versiondownloaded/
 
       2. Append the Maven bin folder to the path:
-          export PATH=$PATH:/Users/<YOUR USER NAME>/<apache-maven-3>/bin/
+          export PATH=$PATH:/Users/YOUR USER NAME/apache-maven-versiondownloaded/bin/
 
       3. If you don't have a bash profile, create one:
             touch .bash_profile
